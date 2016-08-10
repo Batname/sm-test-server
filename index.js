@@ -8,7 +8,7 @@ const log = bunyan.createLogger({name: "sm-test-server"});
 const server = http.createServer(createServer);
 
 function createServer(req, res) {
-  res.end('08/feature-08');
+  res.end('new api v 1.1');
   log.info(res.statusCode);
 }
 
